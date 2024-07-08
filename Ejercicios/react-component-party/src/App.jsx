@@ -251,11 +251,7 @@ const tarjetasRecetas = [
   }
 ];
 
-function App() {
-  return (
-    
-  )
-}
+function App()
 
 
 
