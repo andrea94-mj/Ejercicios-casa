@@ -307,3 +307,5 @@ const testimonios = [
     }
   ];
 ```
+
+### Siempre que tengamos un map, crear un componente nuevo
