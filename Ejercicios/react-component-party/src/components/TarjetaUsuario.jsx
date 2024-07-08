@@ -1,9 +1,8 @@
-// import styles from '../css/App.css'
+// import style from "../css/App.css"
 
 const TarjetaUsuario = ({edad, nombre, ocupacion}) => {
 
-    //DECONSTRUCCIÓN (EXTRAER)
-    //const { edad, nombre, ocupacion } = item (lo hemos declarado arriba directamente por lo que no haría falta volver a usar item)
+    
 
     return(
         <>
@@ -19,12 +18,6 @@ const TarjetaUsuario = ({edad, nombre, ocupacion}) => {
         </>
     )
 }
-
-
-
-
-
-
 
 
 export default TarjetaUsuario;

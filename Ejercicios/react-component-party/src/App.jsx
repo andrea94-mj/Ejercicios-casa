@@ -1,6 +1,7 @@
 // import styles from './css/index.css'
 // import styles2 from './css/App.css'
 import TarjetaUsuario from './components/TarjetaUsuario';
+import ListaTareas from './components/tareas/ListaTareas';
 
 
 
@@ -9,6 +10,7 @@ function App() {
   return(
     <>
     <TarjetaUsuario {...usuario}/>
+    <ListaTareas/>
     </>
   )
 }
