@@ -1,6 +1,6 @@
+import Tarea from "./Tarea";
 
-
-const tareas = [
+const tarea = [
     { id: 1, nombre: 'Estudiar React', completada: true },
     { id: 2, nombre: 'Ir a la playa', completada: false },
     { id: 3, nombre: 'Comer paella', completada: false },
@@ -9,7 +9,7 @@ const tareas = [
 ];
 
 const ListaTareas = ({tarea}) => {
-
+    console.log
     return(
         <div>
             <h2>Tareas de este verano:</h2>
